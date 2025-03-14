@@ -47,6 +47,7 @@ class TranscriptionService:
             print("Creating fallback dummy model")
             self.model = self._create_dummy_model()
     
+    #If there's an issue loading the transcription model,basically due to memory constraints or compatibility issues, the dummy_model allows to start up rather than crashing completely
     def _create_dummy_model(self):
         def dummy_model(*args, **kwargs):
             error_msg = "Transcription model failed to load. Please check server logs."
