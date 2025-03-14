@@ -64,7 +64,4 @@ Welcome to the audio transcription and processing app. This project is a FastAPI
 
 Contributions are always welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License.
 Nerdily made 👩‍💻 by Hckmar
